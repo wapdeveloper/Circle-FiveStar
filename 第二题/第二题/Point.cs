@@ -17,8 +17,5 @@ namespace 第二题
             this.x = x;
             this.y = y;
         }
-
-
-        public bool outline;
     }
 }

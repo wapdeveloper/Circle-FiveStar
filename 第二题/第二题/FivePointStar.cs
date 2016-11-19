@@ -12,7 +12,6 @@ namespace 第二题
     {
         public Point[] a;
         public Point[] b;
-        public Point center;
         ArrayList alist = new ArrayList();
         Line arcstartline = new Line();
         Line arcendline = new Line();
@@ -329,7 +328,7 @@ namespace 第二题
         }
         public void SolveEquations(Point p1, Point p2 ,Line line)
         {
-            double x, y, r = cir.r;
+            double  r = cir.r;
             double offx = 0, offy = 0;
             offx = cir.center.x;
             offy = cir.center.y;
